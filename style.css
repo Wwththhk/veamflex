@@ -32,6 +32,7 @@ body {
   display: flex;
   align-items: center;
   height: 180px;
+  gap: 30px;
 }
 
 .logo {
@@ -41,6 +42,7 @@ body {
 .description {
   display: flex;
   align-items: center;
+  gap: 20px;
 }
 
 .description::before {
@@ -48,7 +50,6 @@ body {
   background-color: currentColor;
   width: 64px;
   height: 1px;
-  margin: 0 20px 0 30px;
 }
 
 .anger {
